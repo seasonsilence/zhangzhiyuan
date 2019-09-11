@@ -8,5 +8,5 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:1111/eureka/   #此处改为包含两个eureka-server
+      defaultZone: http://localhost:1111/eureka/,http://localhost:1112/eureka/   #此处改为包含两个eureka-server
 #,http://localhost:1112/eureka/   此处改为包含两个eureka-server
